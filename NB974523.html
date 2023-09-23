@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+      @media(min-width: 768px){
+        .sign-in{
+          width: 50%;
+        }
+      }
+    </style>
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">NBA Buzz</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#fame" class="nav-link">Hall Of Fame</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#top-news">Top News
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <!--Jumbotron-->
+      <section class="bg-dark text-light p-5 text-center text-sm-start" id="home">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-center">
+            <div>
+              <h1>Welcome to <span class="text-warning">NBA News</span></h1>
+              <p class="lead my-4">Welcome to NBA Buzz, your ultimate source for all things NBA! Stay up-to-date with the latest news, game highlights, player stats, trade rumors, and more.</p>
+              <button class="btn btn-primary btn-lg">Learn More</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1490&q=80" alt="" class="img-fluid w-50 d-none d-md-block"> 
+          </div>
+        </div>
+      </section>
+
+      <!--News-->
+      <section class="bg-primary text-light p-5">
+        <div class="container">
+          <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign Up For The Latest News</h3>
+            <div class="input-group sign-in">
+              <input type="text" class="form-control" placeholder="Subscribe To Our News" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Hall Of Fame-->
+      <section class="p-5" id="fame">
+        <div class="container">
+          <h1 class="text-center mb-4">Hall Of Fame</h1>
+          <div class="row d-flex flex-wrap">
+
+            <div class="col-md-3 mb-4 mb-md-none">
+              <div class="card bg-dark text-light d-flex flex-fill">
+                <img src="images/Kobe Bryant.jpg" class="card-img-top" alt="Kobe Bryant Pic" class="card-img-top img-fluid" style="height: 400px;">
+                <div class="card-body">
+                  <h4 class="card-title text-warning">Kobe Bryant</h4>
+                  <p class="card-text lead">Five-Time NBA Champion and Two-Time NBA Finals MVP</p>
+                  <p>&copy; <a href="https://i.pinimg.com/564x/d0/06/96/d0069686ab19b4c8b15bb59c8792f42e.jpg">https://i.pinimg.com/564x/d0/06/96/d0069686ab19b4c8b15bb59c8792f42e.jpg</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-none">
+              <div class="card bg-dark text-light d-flex flex-fill">
+                <img src="images/Michael Jordan.jpg" class="card-img-top" alt="Michael Jordan Pic" class="card-img-top img-fluid" style="height: 400px;">
+                <div class="card-body">
+                  <h4 class="card-title text-warning">Michael Jordan</h4>
+                  <p class="card-text lead">Six-Time NBA Champion and Six-Time NBA Finals MVP</p>
+                  <p>&copy; <a href="https://i.pinimg.com/564x/d0/06/96/d0069686ab19b4c8b15bb59c8792f42e.jpg">https://i.pinimg.com/564x/d0/06/96/d0069686ab19b4c8b15bb59c8792f42e.jpg</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-none">
+              <div class="card bg-dark text-light d-flex flex-fill">
+                <img src="images/Lebron James.jpg" class="card-img-top" alt="Lebron James Pic" class="card-img-top img-fluid" style="height: 400px;">
+                <div class="card-body">
+                  <h4 class="card-title text-warning">Lebron James</h4>
+                  <p class="card-text lead">Recorded 35,000 Points, 9,000 Rebounds, and 9,000 Assists.</p>
+                  <p>&copy; <a href="https://i.pinimg.com/564x/17/f7/4f/17f74fcb3930e66fa8d3d500eb1a25d5.jpg">https://i.pinimg.com/564x/17/f7/4f/17f74fcb3930e66fa8d3d500eb1a25d5.jpg</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-none">
+              <div class="card bg-dark text-light d-flex flex-fill">
+                <img src="images/Kareem.jpg" alt="" class="card-img-top img-fluid" style="height: 400px;">
+                <div class="card-body">
+                  <h4 class="card-title text-warning">
+                    Abdul-Jabbar</h4>
+                    <p class="card-text lead">All-Time Leading Scorer in NBA History. 6-time NBA Champ</p>
+                    <p>&copy; <a href="https://i.pinimg.com/originals/e8/d4/ef/e8d4efb9e81a347d5e9ef125df0c70f4.jpg">https://i.pinimg.com/originals/e8/d4/ef/e8d4efb9e81a347d5e9ef125df0c70f4.jpg</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--Top News-->
+      <section class="p-5">
+        <div class="container" id="top-news">
+          <h1 class="text-center mb-4">Top News</h1>
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+              <img src="images/nba-logo-design.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-warning mb-5">NBA</h2>
+              <h3 class="secondary mb-5">Sports League</h3>
+              <p class="lead">The 2023-24 NBA Season Tips Oct 24. 🏀 First-Ever In-Season Tournament tips Nov.3 (Semis & Championship: Dec. 7 &9) </p>
+              <p>Copyright: &copy; <a href="https://blog.logomyway.com/wp-content/uploads/2017/01/nba-logo-design.jpg">https://blog.logomyway.com/wp-content/uploads/2017/01/nba-logo-design.jpg</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Fixtures Table-->
+      <section class="bg-dark ">
+        <div class="container p-5">
+          <h1 class="text-center mb-3">Fixtures</h1>
+          <table class="table table-responsive" style="border-radius: .5rem;">
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">First Team Vs.</th>
+                <th scope="col">Last Team</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">7th October 1900</th>
+                <td>TimberWolfs</td>
+                <td>Mavericks</td>
+              </tr>
+              <tr>
+                <th scope="row">8th October 03:30</th>
+                <td>Warriors</td>
+                <td>Lakers</td>
+              </tr>
+              <tr>
+                <th scope="row">8th October 20:00</th>
+                <td>Bucks</td>
+                <td>Bulls</td>
+              </tr>
+              <tr>
+                <th scope="row">8th October 22:00</th>
+                <td>Pistons</td>
+                <td>Suns</td>
+              </tr>
+              <tr>
+                <th scope="row">9th October 01:00</th>
+                <td>Celtics</td>
+                <td>76ers</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Contact Us -->
+      <section id="contact" class="bg-dark text-light">
+        <div class="container">
+          <h1 class="text-center mt-5 mb-5 text-light">CONTACT US</h1>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="George Bush">
+              </div>
+              <div class="mb-3">
+                <label for="emailAddr" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailAdrr" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-light text-dark mb-5 px-5 btn-lg">Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+       <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container text-center">
+          <p>&copy; 2023 NBA Buzz</p>
+      </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
